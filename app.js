@@ -1,5 +1,4 @@
-//imp! NAVBAR SCROLLING COLOR
-
+// Naviqasiya panelinin rənginin dəyişməsi
 window.onscroll = () => {
     if(scrollY > 233){
         document.querySelector('.header-section').style.backgroundColor = '#1b1514e7';
@@ -9,8 +8,7 @@ window.onscroll = () => {
     }
 }
 
-//imp! COUNTER UP JAVASCRIPT
-
+// Sayğac (Counter) funksiyası
 let valueDisplays = document.querySelectorAll(".section-5__counter-number");
 let interval = 5000;
 valueDisplays.forEach((valueDisplay) => {
